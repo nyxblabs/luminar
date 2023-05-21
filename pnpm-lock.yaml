@@ -16,6 +16,9 @@ devDependencies:
   clean-pkg-json:
     specifier: ^1.2.0
     version: 1.2.0
+  consolji:
+    specifier: ^0.1.4
+    version: 0.1.4
   dynot:
     specifier: ^0.1.8
     version: 0.1.8
