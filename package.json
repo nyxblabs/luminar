@@ -36,7 +36,7 @@
     "test:dts": "tsd",
     "type-check": "tsc --noEmit",
     "test": "vitest --coverage",
-    "release": "nyxr lint && nyxr test && nyxlx --release && git push --follow-tags origin main && pnpm publish"
+    "release": "nyxr lint && nyxr test && nyxlx changelogen@latest --release && git push --follow-tags origin main && pnpm publish"
   },
   "devDependencies": {
     "@nyxb/eslint-config": "0.0.53",

@@ -1,2 +1,4 @@
 .vscode
 .github
+package.json
+tsconfig.json
