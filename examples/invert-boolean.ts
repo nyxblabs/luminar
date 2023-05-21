@@ -5,10 +5,10 @@
  * $ npx tsx ./examples/invert-boolean --boolean=false
  */
 import consolji from 'consolji'
-import { typeFlag } from '#luminar'
+import { typeLuminar } from '../src/index'
 
-const parsed = typeFlag({
+const parsed = typeLuminar({
    boolean: Boolean,
 })
 
-consolji.log(parsed.flags.boolean)
+consolji.log(parsed.luminars.boolean)

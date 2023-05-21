@@ -29,27 +29,6 @@
       "default": "./dist/index.mjs"
     }
   },
-  "scripts": {
-    "prepack": "nyxr build && clean-pkg-json",
-    "build": "buildkarium",
-    "lint": "eslint --cache .",
-    "test:dts": "tsd",
-    "type-check": "tsc --noEmit",
-    "test": "vitest run --coverage",
-    "release": "nyxr lint && nyxr test && nyxlx changelogen@latest --release && git push --follow-tags origin main && pnpm publish"
-  },
-  "devDependencies": {
-    "@nyxb/eslint-config": "0.0.53",
-    "@types/node": "^20.2.1",
-    "@vitest/coverage-c8": "^0.31.1",
-    "buildkarium": "^0.0.2",
-    "clean-pkg-json": "^1.2.0",
-    "consolji": "^0.1.4",
-    "dynot": "^0.1.8",
-    "tsd": "^0.28.1",
-    "typescript": "^5.0.4",
-    "vitest": "^0.31.1"
-  },
   "files": [
     "dist"
   ],

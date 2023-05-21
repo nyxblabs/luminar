@@ -5,7 +5,7 @@
  * $ npx tsx ./examples/dot-nested --env.TOKEN=123 --env.CI
  */
 import consolji from 'consolji'
-import { typeFlag } from '#luminar'
+import { typeLuminar } from '../src/index'
 
 interface Environment {
    TOKEN?: string
@@ -19,10 +19,10 @@ function EnvironmentObject(value: string): Environment {
    }
 }
 
-const parsed = typeFlag({
+const parsed = typeLuminar({
    env: [EnvironmentObject],
 })
 
-const environment = parsed.flags.env.reduce((agg, next) => Object.assign(agg, next), {})
+const environment = parsed.luminars.env.reduce((agg, next) => Object.assign(agg, next), {})
 
 consolji.log(environment)

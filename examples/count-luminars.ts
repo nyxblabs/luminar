@@ -5,13 +5,13 @@
  * $ npx tsx ./examples/count-flags -vvv
  */
 import consolji from 'consolji'
-import { typeFlag } from '#luminar'
+import { typeLuminar } from '../src/index'
 
-const parsed = typeFlag({
+const parsed = typeLuminar({
    verbose: {
       type: [Boolean],
       alias: 'v',
    },
 })
 
-consolji.log(parsed.flags.verbose.length)
+consolji.log(parsed.luminars.verbose.length)

@@ -5,7 +5,7 @@
  * $ npx tsx ./examples/count-flags --size medium
  */
 import consolji from 'consolji'
-import { typeFlag } from '#luminar'
+import { typeLuminar } from '../src/index'
 
 const possibleSizes = ['small', 'medium', 'large'] as const
 
@@ -18,10 +18,10 @@ function Size(size: Sizes) {
    return size
 }
 
-const parsed = typeFlag({
+const parsed = typeLuminar({
    size: {
       type: Size,
    },
 })
 
-consolji.log(parsed.flags)
+consolji.log(parsed.luminars)
