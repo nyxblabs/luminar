@@ -39,6 +39,18 @@
     "release": "nyxr test && nyxlx changelogen --release && pnpm publish",
     "test": "nyxr lint && vitest run --coverage"
   },
+  "devDependencies": {
+    "@nyxb/eslint-config": "0.0.53",
+    "@types/node": "^20.2.1",
+    "@vitest/coverage-c8": "^0.31.1",
+    "buildkarium": "^0.0.2",
+    "clean-pkg-json": "^1.2.0",
+    "consolji": "^0.1.4",
+    "dynot": "^0.1.8",
+    "tsd": "^0.28.1",
+    "typescript": "^5.0.4",
+    "vitest": "^0.31.1"
+  },
   "files": [
     "dist"
   ],
