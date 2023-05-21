@@ -1,0 +1,45 @@
+{
+  "name": "luminar",
+  "version": "0.0.1",
+  "description": "🚀 A lightweight, powerful tool for parsing command-line arguments with ease.👌",
+  "author": "Dennis Ollhoff <contact@nxb.xyz>",
+  "license": "MIT",
+  "funding": "https://github.com/nyxblabs/typeargv?sponsor=1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyxblabs/typeargv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nyxblabs/typeargv/issues"
+  },
+  "keywords": [
+    "cli",
+    "command-line",
+    "flag",
+    "argv",
+    "arguments",
+    "parser",
+    "typed",
+    "typescript"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "imports": {
+    "#typeargv": {
+      "types": "./src/index.ts",
+      "development": "./src/index.ts",
+      "default": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist"
+  ]
+}
