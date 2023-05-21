@@ -36,7 +36,7 @@
     "type-check": "tsc --noEmit",
     "lint": "eslint --ext .ts,.js .",
     "lint:fix": "eslint --ext .ts,.js . --fix",
-    "release": "nyxr test && nyxlx changelogen --release && pnpm publish && git push --follow-tags",
+    "release": "nyxr test && nyxlx changelogen --release && pnpm publish",
     "test": "nyxr lint && vitest run --coverage"
   },
   "files": [
