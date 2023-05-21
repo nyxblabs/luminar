@@ -8,6 +8,8 @@
 
 > 🚀 A lightweight, powerful tool for parsing command-line arguments with ease.👌
 
+**Note** `Luminar`: Stands here symbolically for `Flags`. Luminar is based on the word, "lumen" (light) which symbolizes clarity and illumination. It indicates that this package provides transparency and understanding of the command line arguments.
+
 ➡️ [Try it out online](https://stackblitz.com/edit/luminar-demo?devtoolsheight=50&file=src/luminar.ts&view=editor)
 
 
