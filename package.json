@@ -30,12 +30,13 @@
     }
   },
   "scripts": {
-    "prepack": "pnpm build && clean-pkg-json",
+    "prepack": "nyxr build && clean-pkg-json",
     "build": "buildkarium",
     "lint": "eslint --cache .",
     "test:dts": "tsd",
     "type-check": "tsc --noEmit",
-    "test": "vitest --coverage"
+    "test": "vitest --coverage",
+    "release": "nyxr lint && nyxr test && nyxlx --release && git push --follow-tags origin main && pnpm publish"
   },
   "devDependencies": {
     "@nyxb/eslint-config": "0.0.53",
