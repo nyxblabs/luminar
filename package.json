@@ -29,6 +29,16 @@
       "default": "./dist/index.mjs"
     }
   },
+  "scripts": {
+		"prepack": "nyxr build && clean-pkg-json",
+		"build": "buildkarium",
+		"test:dts": "tsd",
+		"type-check": "tsc --noEmit",
+    "lint": "eslint --ext .ts,.js .",
+    "lint:fix": "eslint --ext .ts,.js . --fix",
+    "release": "nyxr test && nyxlx changelogen --release && pnpm publish && git push --follow-tags",
+    "test": "nyxr lint && vitest run --coverage"
+	},
   "files": [
     "dist"
   ],
