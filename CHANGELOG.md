@@ -1,6 +1,24 @@
 # Changelog
 
 
+## v0.0.4
+
+[compare changes](https://github.com/nyxblabs/luminar/compare/v0.0.4...v0.0.4)
+
+
+### 📖 Documentation
+
+  - **README.md:** Add note explaining the meaning of 'Luminar' The note explains that 'Luminar' is a symbolic name for 'Flags' and is based on the word 'lumen' which means light, symbolizing clarity and illumination. It also indicates that the package provides transparency and understanding of the command line arguments. ([d1984d9](https://github.com/nyxblabs/luminar/commit/d1984d9))
+
+### 🏡 Chore
+
+  - **.nvmrc:** Remove .nvmrc file The .nvmrc file was removed, which is no longer needed as the project has been migrated to a different version manager. ([c3946c1](https://github.com/nyxblabs/luminar/commit/c3946c1))
+  - **package.json:** Add new devDependencies to improve development experience The following devDependencies were added to improve the development experience: - @nyxb/eslint-config: a custom eslint configuration for the project - @types/node: provides TypeScript definitions for Node.js - @vitest/coverage-c8: a code coverage tool for the project - buildkarium: a tool for building and packaging the project - clean-pkg-json: a tool for cleaning up the package.json file - consolji: a tool for logging - dynot: a tool for managing DynamoDB tables - tsd: a tool for managing TypeScript definitions - typescript: the TypeScript compiler - vitest: a testing framework for the project ([c97fcf4](https://github.com/nyxblabs/luminar/commit/c97fcf4))
+
+### ❤️  Contributors
+
+- Nyxb <contact@nyxb.xyz>
+
 ## v0.0.3
 
 [compare changes](https://github.com/nyxblabs/luminar/compare/v0.0.2...v0.0.3)
