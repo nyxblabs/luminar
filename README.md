@@ -6,19 +6,18 @@
 
 # 🌕 luminar
 
-Typed command-line arguments parser. Only 1.4 kB.
+> 🚀 A lightweight, powerful tool for parsing command-line arguments with ease.👌
 
-→ [Try it out online](https://stackblitz.com/edit/luminar-demo?devtoolsheight=50&file=src/luminar.ts&view=editor)
+➡️ [Try it out online](https://stackblitz.com/edit/luminar-demo?devtoolsheight=50&file=src/luminar.ts&view=editor)
 
 
 > _Looking for something more robust?_ 👀
 >
-> Try [**Zyro**](https://github.com/nyxblabs/zyro)—a CLI development tool powered by _luminar_.
+> Try [**Zyro**](https://github.com/nyxblabs/zyro) a CLI development tool powered by **_luminar_**.
 >
 > In addition to luminar parsing, it supports argument parsing and has a beautiful `--help` documentation generator.
 
-
-<sub>Support this project by ⭐️ starring and sharing it. [Follow me](https://github.com/nyxb) to see what other cool projects I'm working on! 💙</sub>
+## Support this project by ⭐️ starring and sharing it. [Follow me](https://github.com/nyxb) to see what other cool projects I'm working on! 💙
 
 ## 📥 Install:
 
