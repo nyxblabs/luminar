@@ -1,6 +1,21 @@
 # Changelog
 
 
+## v0.0.3
+
+[compare changes](https://github.com/nyxblabs/luminar/compare/v0.0.2...v0.0.3)
+
+
+### 🏡 Chore
+
+  - Fix typos ([64071c0](https://github.com/nyxblabs/luminar/commit/64071c0))
+  - **github-assets:** Add cover image for Luminar organization The commit adds a new cover image for the Luminar organization in the .github/assets directory. This image will be used as the cover image for the Luminar organization on GitHub. ([3d03040](https://github.com/nyxblabs/luminar/commit/3d03040))
+  - **package.json:** Add new scripts for build, linting, and testing Added new scripts for build, linting, and testing to improve the development workflow. The `prepack` script was also added to run the build and clean-pkg-json scripts before packaging. ([79faf01](https://github.com/nyxblabs/luminar/commit/79faf01))
+
+### ❤️  Contributors
+
+- Nyxb <contact@nyxb.xyz>
+
 ## v0.0.2
 
 

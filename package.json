@@ -1,6 +1,6 @@
 {
   "name": "luminar",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "🚀 A lightweight, powerful tool for parsing command-line arguments with ease.👌",
   "author": "Dennis Ollhoff <contact@nxb.xyz>",
   "license": "MIT",
@@ -30,15 +30,15 @@
     }
   },
   "scripts": {
-		"prepack": "nyxr build && clean-pkg-json",
-		"build": "buildkarium",
-		"test:dts": "tsd",
-		"type-check": "tsc --noEmit",
+    "prepack": "nyxr build && clean-pkg-json",
+    "build": "buildkarium",
+    "test:dts": "tsd",
+    "type-check": "tsc --noEmit",
     "lint": "eslint --ext .ts,.js .",
     "lint:fix": "eslint --ext .ts,.js . --fix",
     "release": "nyxr test && nyxlx changelogen --release && pnpm publish && git push --follow-tags",
     "test": "nyxr lint && vitest run --coverage"
-	},
+  },
   "files": [
     "dist"
   ],
