@@ -4,25 +4,14 @@
   "description": "🚀 A lightweight, powerful tool for parsing command-line arguments with ease.👌",
   "author": "Dennis Ollhoff <contact@nxb.xyz>",
   "license": "MIT",
-  "funding": "https://github.com/nyxblabs/typeargv?sponsor=1",
+  "funding": "https://github.com/nyxblabs/luminar?sponsor=1",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nyxblabs/typeargv.git"
+    "url": "git+https://github.com/nyxblabs/luminar.git"
   },
   "bugs": {
-    "url": "https://github.com/nyxblabs/typeargv/issues"
+    "url": "https://github.com/nyxblabs/luminar/issues"
   },
-  "keywords": [
-    "cli",
-    "command-line",
-    "flag",
-    "luminar",
-    "argv",
-    "arguments",
-    "parser",
-    "typed",
-    "typescript"
-  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -34,16 +23,43 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "imports": {
-    "#typeargv": {
-      "types": "./src/index.ts",
+    "#luminar": {
+      "types": "./src/index.d.ts",
       "development": "./src/index.ts",
       "default": "./dist/index.mjs"
     }
   },
+  "scripts": {
+    "prepack": "pnpm build && clean-pkg-json",
+    "build": "buildkarium",
+    "lint": "eslint --cache .",
+    "test:dts": "tsd",
+    "type-check": "tsc --noEmit",
+    "test": "vitest --coverage"
+  },
+  "devDependencies": {
+    "@nyxb/eslint-config": "0.0.53",
+    "@types/node": "^20.2.1",
+    "@vitest/coverage-c8": "^0.31.1",
+    "buildkarium": "^0.0.2",
+    "clean-pkg-json": "^1.2.0",
+    "dynot": "^0.1.8",
+    "tsd": "^0.28.1",
+    "typescript": "^5.0.4",
+    "vitest": "^0.31.1"
+  },
   "files": [
     "dist"
   ],
-  "devDependencies": {
-    "@types/node": "^20.2.1"
-  }
+  "keywords": [
+    "cli",
+    "command-line",
+    "flag",
+    "luminar",
+    "argv",
+    "arguments",
+    "parser",
+    "typed",
+    "typescript"
+  ]
 }
