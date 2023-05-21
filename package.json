@@ -16,6 +16,7 @@
     "cli",
     "command-line",
     "flag",
+    "luminar",
     "argv",
     "arguments",
     "parser",
@@ -41,5 +42,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "devDependencies": {
+    "@types/node": "^20.2.1"
+  }
 }
